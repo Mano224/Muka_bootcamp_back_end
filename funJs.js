@@ -10,6 +10,8 @@ let addition = (c, d) => {
 console.log(`hello form function this is this the result ${add(2,3)}`);
 console.log(`hello form arrow function this is this the result ${addition(10,20)}`);
 
+
+// the maximum value in the array and there is anouther wat by useing Math.max(...arr)
 function the_max(arr) {
     let max = arr[0];
     for (let i = 0; i < arr.length; i++) {
